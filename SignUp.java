@@ -26,10 +26,10 @@ public class SignUp {
                 String q1 = "insert into userdetails values('"+ name + "','" + mob + "','" + uname + "','" + pass + "')";
                 int x = stmt.executeUpdate(q1);
                 if (x > 0)
-                    System.out.println("success");
+                    System.out.println("Account created Successfully");
                             
                             else  {
-                    System.out.println("Failed");
+                    System.out.println("Failed to create an Account");
                     con.close();
                 }
             }
