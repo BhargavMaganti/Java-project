@@ -68,12 +68,16 @@ public class Purchase {
                             if(j==2){
                             Date dt=new Date();
                             System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tDigital Library");
+                            System.out.println("---------------------------------------------------------------------"); 
                             System.out.println("Customer Name    : "+rs1.getString(1)+"            "+dt);
                             System.out.println("Customer Mobile  : "+rs1.getString(2));
                             System.out.println("---------------------------------------------------------------------"); 
                             
                             System.out.println("Total amount including taxes :"+total);
-                            System.out.println("---------------------------------------------------------------------");  
+                            System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tThank you");
+                            System.out.println("\t\t\tVisit Again...!");
                             total=0;
                         }
                         
@@ -118,12 +122,16 @@ public class Purchase {
                             if(j==2){
                             Date dt=new Date();
                             System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tDigital Library");
+                            System.out.println("---------------------------------------------------------------------"); 
                             System.out.println("Customer Name    : "+rs1.getString(1)+"            "+dt);
                             System.out.println("Customer Mobile  : "+rs1.getString(2));
                             System.out.println("---------------------------------------------------------------------"); 
                             
                             System.out.println("Total amount including taxes :"+total);
-                            System.out.println("---------------------------------------------------------------------");  
+                            System.out.println("---------------------------------------------------------------------");
+                            System.out.println("\t\t\tThank you");
+                            System.out.println("\t\t\tVisit Again...!");
                             total=0;
                         }
                     }
@@ -180,12 +188,16 @@ public class Purchase {
                             if(j==2){
                             Date dt=new Date();
                             System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tDigital Library");
+                            System.out.println("---------------------------------------------------------------------"); 
                             System.out.println("Customer Name    : "+rs1.getString(1)+"            "+dt);
                             System.out.println("Customer Mobile  : "+rs1.getString(2));
                             System.out.println("---------------------------------------------------------------------"); 
                             
                             System.out.println("Total amount including taxes :"+total);
-                            System.out.println("---------------------------------------------------------------------");  
+                            System.out.println("---------------------------------------------------------------------");
+                            System.out.println("\t\t\tThank you");
+                            System.out.println("\t\t\tVisit Again...!");
                             total=0;
                        }
                        
@@ -228,12 +240,16 @@ public class Purchase {
                             if(j==2){
                             Date dt=new Date();
                             System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tDigital Library");
+                            System.out.println("---------------------------------------------------------------------"); 
                             System.out.println("Customer Name    : "+rs1.getString(1)+"            "+dt);
                             System.out.println("Customer Mobile  : "+rs1.getString(2));
                             System.out.println("---------------------------------------------------------------------"); 
                             
                             System.out.println("Total amount including taxes :"+total);
-                            System.out.println("---------------------------------------------------------------------");  
+                            System.out.println("---------------------------------------------------------------------"); 
+                            System.out.println("\t\t\tThank you");
+                            System.out.println("\t\t\tVisit Again...!");
                             total=0;
                         }
                         
