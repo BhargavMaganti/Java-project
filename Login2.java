@@ -13,7 +13,7 @@ public class Login2 {
      public static int login2() throws IOException {
             DataInputStream ds=new DataInputStream(System.in);
      
-      System.out.println("-----------------");
+      System.out.println("---------------------------------------------------");
       System.out.println("Username :");
      username= ds.readLine();
       System.out.println("password :");
@@ -31,12 +31,12 @@ public class Login2 {
         ResultSet rs=stmt.executeQuery(q1);
        if(rs.next()){
            System.out.println("Login success");
-           System.out.println("-----------------");
+           System.out.println("---------------------------------------------------");
            return 0;
           }else{
-           System.out.println("Check your password or username ");
-           System.out.println("---please SignUp---");
-           System.out.println("-----------------");
+           System.out.println("Incorrect Password or Username ");
+           System.out.println("---If you donot have an accounut please SignUp---");
+           System.out.println("---------------------------------------------------");
            return 1;
        }
         
