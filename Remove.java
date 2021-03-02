@@ -30,11 +30,11 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 int x=stmt.executeUpdate(q1);
                 if(x>0)
                 {
-                    System.out.println("deleted successfully");
+                    System.out.println("Deleted Successfully");
                 }
                 else
                 {
-                    System.out.println("couldn't delete");
+                    System.out.println("Delete not successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
