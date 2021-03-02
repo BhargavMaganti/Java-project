@@ -16,7 +16,7 @@ public class Update {
         int w=0;
          DataInputStream ds=new DataInputStream(System.in);
                  do{
-                     System.out.println("What do you want to update :\n1.SerialID\n2.Book name\n3.Author name\n4.Price\n5.Quantity\n6.ISBN\n7.Quit");
+                     System.out.println("Select an option to Update :\n1.SerialID\n2.Book name\n3.Author name\n4.Price\n5.Quantity\n6.ISBN\n7.Quit");
                  w=Integer.parseInt(ds.readLine());
                  switch(w){
                      case 1:try
@@ -40,7 +40,7 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 }
                 else
                 {
-                    System.out.println("Update not successful");
+                    System.out.println("Update not Successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
@@ -72,7 +72,7 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 }
                 else
                 {
-                    System.out.println("Update not successful");
+                    System.out.println("Update not Successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
@@ -97,11 +97,11 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 int x=stmt.executeUpdate(q1);
                 if(x>0)
                 {
-                    System.out.println("updated successfully");
+                    System.out.println("Updated Successfully");
                 }
                 else
                 {
-                    System.out.println("couldn't update");
+                    System.out.println("Update not Successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
@@ -158,11 +158,11 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 int x=stmt.executeUpdate(q1);
                 if(x>0)
                 {
-                    System.out.println("updated successfully");
+                    System.out.println("Updated Successfully");
                 }
                 else
                 {
-                    System.out.println("couldn't update");
+                    System.out.println("Update not Successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
@@ -188,11 +188,11 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
                 int x=stmt.executeUpdate(q1);
                 if(x>0)
                 {
-                    System.out.println("updated successfully");
+                    System.out.println("Updated Successfully");
                 }
                 else
                 {
-                    System.out.println("couldn't update");
+                    System.out.println("Update not Successful");
 }           }
 }
 catch(  ClassNotFoundException | SQLException | IOException e)
