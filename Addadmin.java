@@ -14,13 +14,13 @@ public class Addadmin {
     public int addadmin() throws IOException, ClassNotFoundException, SQLException{
         try{
         DataInputStream ds=new DataInputStream(System.in);
-                        System.out.println("Admin specific Id:");
+                        System.out.println("Admin Specific ID:");
                         int si=Integer.parseInt(ds.readLine());
-                        System.out.println("Admin name:");
+                        System.out.println("Admin Name:");
                         String sid=ds.readLine();
                         System.out.println("Password:");
                         String pass=ds.readLine();
-                        System.out.println("Enter Re-Password: ");
+                        System.out.println("Re-Enter Password: ");
                         String repass = ds.readLine();
                      if(pass.equals(repass)){
                          
@@ -31,7 +31,7 @@ public class Addadmin {
                 String q1 = "insert into login values('"+ si + "','" + sid + "','" + pass + "')";
                 int x = stmt.executeUpdate(q1);
                 if (x > 0)
-                    System.out.println("success");
+                    System.out.println("Success");
                             
                             else  {
                     System.out.println("Failed");
