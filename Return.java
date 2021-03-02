@@ -27,9 +27,9 @@ public class Return {
                     int rs=stmt1.executeUpdate(q2);
                     if(rs>0){
                         
-                     System.out.println("Book returned successfully");
+                     System.out.println("Book Returned Successfully");
                     }else{
-                        System.out.println("Book return unsuccessful");
+                        System.out.println("Book Return not Successful");
                     }
                      
                 }
